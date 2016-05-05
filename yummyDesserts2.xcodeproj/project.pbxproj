@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58DA8A2D1B67D38900E0179F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA8A2C1B67D38900E0179F /* Food.swift */; };
+		58DA8A2F1B67E90A00E0179F /* DetailViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA8A2E1B67E90A00E0179F /* DetailViewcontroller.swift */; };
 		58FFF8B51B66AEA400D5CCFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFF8B41B66AEA400D5CCFC /* AppDelegate.swift */; };
-		58FFF8B71B66AEA400D5CCFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFF8B61B66AEA400D5CCFC /* ViewController.swift */; };
 		58FFF8BA1B66AEA400D5CCFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FFF8B81B66AEA400D5CCFC /* Main.storyboard */; };
 		58FFF8BC1B66AEA400D5CCFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FFF8BB1B66AEA400D5CCFC /* Images.xcassets */; };
 		58FFF8BF1B66AEA400D5CCFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58FFF8BD1B66AEA400D5CCFC /* LaunchScreen.xib */; };
 		58FFF8CB1B66AEA400D5CCFC /* yummyDesserts2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFF8CA1B66AEA400D5CCFC /* yummyDesserts2Tests.swift */; };
+		58FFF8D51B66AF4000D5CCFC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFF8D41B66AF4000D5CCFC /* TableViewController.swift */; };
+		58FFF8D71B66BA5800D5CCFC /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFF8D61B66BA5800D5CCFC /* myCell.swift */; };
+		9D8F70581CD89BBF00C406A6 /* Touch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8F70571CD89BBF00C406A6 /* Touch.swift */; settings = {ASSET_TAGS = (); }; };
+		9DEBD78D1CDB49C500572B0A /* TouchId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEBD78C1CDB49C500572B0A /* TouchId.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +31,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58DA8A2C1B67D38900E0179F /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		58DA8A2E1B67E90A00E0179F /* DetailViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewcontroller.swift; sourceTree = "<group>"; };
 		58FFF8AF1B66AEA400D5CCFC /* yummyDesserts2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yummyDesserts2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FFF8B31B66AEA400D5CCFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58FFF8B41B66AEA400D5CCFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58FFF8B61B66AEA400D5CCFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58FFF8B91B66AEA400D5CCFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58FFF8BB1B66AEA400D5CCFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		58FFF8BE1B66AEA400D5CCFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		58FFF8C41B66AEA400D5CCFC /* yummyDesserts2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yummyDesserts2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FFF8C91B66AEA400D5CCFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58FFF8CA1B66AEA400D5CCFC /* yummyDesserts2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yummyDesserts2Tests.swift; sourceTree = "<group>"; };
+		58FFF8D41B66AF4000D5CCFC /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = yummyDesserts2.xcodeproj/../TableViewController.swift; sourceTree = SOURCE_ROOT; };
+		58FFF8D61B66BA5800D5CCFC /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+		9D8F70571CD89BBF00C406A6 /* Touch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Touch.swift; sourceTree = "<group>"; };
+		9DEBD78C1CDB49C500572B0A /* TouchId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchId.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 		58FFF8A61B66AEA400D5CCFC = {
 			isa = PBXGroup;
 			children = (
+				9DEBD78C1CDB49C500572B0A /* TouchId.swift */,
 				58FFF8B11B66AEA400D5CCFC /* yummyDesserts2 */,
 				58FFF8C71B66AEA400D5CCFC /* yummyDesserts2Tests */,
 				58FFF8B01B66AEA400D5CCFC /* Products */,
@@ -78,8 +89,12 @@
 			isa = PBXGroup;
 			children = (
 				58FFF8B41B66AEA400D5CCFC /* AppDelegate.swift */,
-				58FFF8B61B66AEA400D5CCFC /* ViewController.swift */,
+				58DA8A2C1B67D38900E0179F /* Food.swift */,
+				58FFF8D61B66BA5800D5CCFC /* myCell.swift */,
+				58DA8A2E1B67E90A00E0179F /* DetailViewcontroller.swift */,
+				58FFF8D41B66AF4000D5CCFC /* TableViewController.swift */,
 				58FFF8B81B66AEA400D5CCFC /* Main.storyboard */,
+				9D8F70571CD89BBF00C406A6 /* Touch.swift */,
 				58FFF8BB1B66AEA400D5CCFC /* Images.xcassets */,
 				58FFF8BD1B66AEA400D5CCFC /* LaunchScreen.xib */,
 				58FFF8B21B66AEA400D5CCFC /* Supporting Files */,
@@ -156,7 +171,9 @@
 		58FFF8A71B66AEA400D5CCFC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "The Code Lady";
 				TargetAttributes = {
 					58FFF8AE1B66AEA400D5CCFC = {
@@ -212,8 +229,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58FFF8B71B66AEA400D5CCFC /* ViewController.swift in Sources */,
+				58DA8A2F1B67E90A00E0179F /* DetailViewcontroller.swift in Sources */,
 				58FFF8B51B66AEA400D5CCFC /* AppDelegate.swift in Sources */,
+				58DA8A2D1B67D38900E0179F /* Food.swift in Sources */,
+				9D8F70581CD89BBF00C406A6 /* Touch.swift in Sources */,
+				58FFF8D71B66BA5800D5CCFC /* myCell.swift in Sources */,
+				9DEBD78D1CDB49C500572B0A /* TouchId.swift in Sources */,
+				58FFF8D51B66AF4000D5CCFC /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +298,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -291,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -342,6 +365,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = yummyDesserts2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameyinc.co;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -352,6 +376,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = yummyDesserts2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameyinc.co;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -370,6 +395,7 @@
 				);
 				INFOPLIST_FILE = yummyDesserts2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodelady.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yummyDesserts2.app/yummyDesserts2";
 			};
@@ -385,6 +411,7 @@
 				);
 				INFOPLIST_FILE = yummyDesserts2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodelady.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yummyDesserts2.app/yummyDesserts2";
 			};
@@ -409,6 +436,7 @@
 				58FFF8D01B66AEA400D5CCFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58FFF8D11B66AEA400D5CCFC /* Build configuration list for PBXNativeTarget "yummyDesserts2Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +445,7 @@
 				58FFF8D31B66AEA400D5CCFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
